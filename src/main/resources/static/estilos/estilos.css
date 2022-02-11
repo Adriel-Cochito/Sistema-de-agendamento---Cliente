@@ -1,0 +1,222 @@
+@charset "ISO-8859-1";
+
+
+/*---------------Estilos Gerais--------------- */
+
+.excluir {
+	color: red;
+}
+
+a:link  {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #086A87;
+	color: white;
+}
+
+body {
+/* 	background-color: red; */
+/* 	height: 100%; */
+	background-image: url("/imagens/escritorio.jpg");
+
+}
+
+#tab {
+	max-width: 600px;
+}
+
+table {
+  	width: 100%;
+}
+
+css global tabela
+.full_table_list{width: 200px;border-collapse: collapse;}
+      
+/*Definido cor das linhas pares*/
+.full_table_list tr:nth-child(even) {background: #FFF}
+         
+/*Definindo cor das Linhas impáres*/
+.full_table_list tr:nth-child(odd) {background: #EEE} 
+
+td, th {
+	padding: 5px;
+	width: auto;
+	height: auto;
+	
+}
+
+.botao {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	background-color: 	#0fabff;
+}
+.botao:hover {
+	background-color: #0080ff;  
+}
+	
+
+}
+
+button {
+	background-color: #1E90FF;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	font-weight: bold;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#container {
+/* 	background-color: red; */
+	padding-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 500px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.92);
+	border-radius: 10px;
+
+}
+
+.container-login {
+	padding: 50px;
+}
+
+.lista {
+	padding: 20px;
+}
+.margem-lista{
+	border: thin;
+	border-color: #cacaca;
+	border-radius: 20px;
+	border-style: solid;
+	margin: 20px;
+}
+
+form {
+	margin: 20px;
+}
+
+/*---------------	Títulos	--------------- */
+
+h1, h2, h3, h4 {
+	text-align: center;
+
+}
+
+/*---------------	Cadastros	--------------- */
+.cards {
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	width: 100%;
+}	
+
+.card-texto {
+	font-weight: bold;
+}
+
+.card-secundario {
+	background-color: #f9f9f9;
+	border-width: thin;
+ 	border-style: solid;
+  	border-color: black;
+  	text-align: center;
+  	border-radius: 10px;
+  	width: 30%;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	padding: 10px;
+}
+
+#cs1 {
+	float: left;
+	margin-left: 15%;
+}
+
+#cs2 {
+	float: right;
+	margin-right: 15%;
+}
+
+.card-corpo {
+	text-decoration: none;
+	padding: 10px;
+}
+.card-secundario:hover {
+	background-color: #c0c0c0;
+	-ms-transform: scale(1.05); /* IE 9 */
+  	-webkit-transform: scale(1.05); /* Safari 3-8 */
+  	transform: scale(1.05);
+  	color: black;
+	
+}
+
+/*  --------------- FOOTER / Rodapé --------------- */
+footer {
+	bottom: 0;
+	position: fixed;
+	display: table-footer-group;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.footer {
+	display: table-footer-group;
+  	position: absolute;
+	background-color: #46494D;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	padding-bottom: 10px;
+  	
+}
+
+/*  --------------- HEADER / Cabeçalho --------------- */
+
+
+header {
+	margin-top: 0px;
+}
+
+.menu {
+	display: block;
+  	position: absolute;
+	background-color: #46494D;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.l1 {
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.p-menu {
+	color: white;
+	position: relative;
+	float: right;
+ 	margin: 0 auto;
+  	top: 10px;
+  	right: 10px;
+}
