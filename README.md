@@ -3,8 +3,6 @@
  
  <img src="./homePage.PNG" width="90%">
 
- <img src="./loginPage.PNG" width="90%">
 
- <img src="./agendamentosPage.PNG" width="90%">
 
   
