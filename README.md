@@ -3,7 +3,7 @@
  
 
 
-<img src="./home-Page.PNG" width="90%" >
+<img src="./home-page.PNG" width="90%" >
 
 
 
